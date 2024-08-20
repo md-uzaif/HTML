@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Online Medicine Shop</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Import Firebase SDK -->
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+      <!-- Import custom CSS -->
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!-- Header section -->
+      <header>
+         <nav>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Medicine</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </nav>
+      </header>
+      <!-- Main section -->
+      <main>
+         <section id="welcome-section">
+            <h1>Welcome to Online Medicine Shop</h1>
+            <p>Get your medicine delivered right to your doorstep.</p>
+         </section>
+         <section id="medicine-section">
+            <h2>Medicine</h2>
+            <!-- Medicine list -->
+            <ul id="medicine-list"></ul>
+         </section>
+         <section id="cart-section">
+            <h2>Cart</h2>
+            <!-- Cart list -->
+            <ul id="cart-list"></ul>
+            <!-- Checkout button -->
+            <button id="checkout-button">Checkout</button>
+         </section>
+      </main>
+      <!-- Footer section -->
+      <footer>
+         <p>&copy; 2023 Online Medicine Shop. All rights reserved.</p>
+      </footer>
+      <!-- Import custom JS -->
+      <script src="js/app.js"></script>
+   </body>
+</html>
